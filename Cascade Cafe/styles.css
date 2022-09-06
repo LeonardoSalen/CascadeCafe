@@ -1,0 +1,267 @@
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300;400&display=swap');
+     :root {
+        --clr-slightlight: rgba(250, 250, 250, 0.5);
+        --clr-light: #fff;
+        --clr-dark: #000;
+        --clr-slightdark: rgba(42, 42, 53, 0.5);
+        --clr-gradiant1: rgba(255, 111, 111, 0.5);
+        --clr-gradiant2: rgba(190, 143, 143, 0.5);
+        --clr-gradiant3: rgba(209, 219, 67, 0.5);
+        --clr-gradiant4: rgba(223, 107, 53, 0.5);
+    }
+    
+    .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+    }
+    
+    @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+        }
+    }
+    
+    .nav {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    th {
+        font-size: 1.5em;
+    }
+    
+    td {
+        padding: .5em;
+        margin-left: 10em;
+        font-family: "Lucida Console", "Courier New", monospace;
+    }
+    
+    table {
+        text-align: center;
+        color: var(--clr-light);
+    }
+    
+    .Contacts {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+    
+    .links:hover {
+        background-color: darkblue;
+        transition: 0.5s ease;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .coffee {
+        margin-top: 5%;
+        margin-right: 5%;
+    }
+    
+    .Home {
+        background-image: url(bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 18%;
+        user-select: none;
+    }
+    
+    .title {
+        background-color: var(--clr-slightdark);
+        border-radius: 25px;
+        color: var(--clr-light);
+        font-size: 5.5vw;
+        border: 3px solid var(--clr-slightdark);
+    }
+    
+    .nav-container,
+    .footer {
+        background: linear-gradient(-45deg, var(--clr-gradiant1), var(--clr-gradiant2), var(--clr-gradiant3), var(--clr-gradiant4));
+        animation: zoom 7s ease infinite;
+        background-size: 1000% 1000%;
+        width: 100%;
+        padding-left: 0%;
+    }
+    
+    @keyframes zoom {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
+    .title {
+        transition: transform 1s;
+    }
+    
+    .title:hover {
+        transform: scale(1.1);
+        background-color: rgb(42, 42, 53);
+        transition: 1s;
+        box-shadow: -10px 5px var(--clr-slightdark);
+    }
+    
+    .info {
+        color: var(--clr-dark);
+        font-family: 'Montserrat', sans-serif;
+        font-size: clamp(15px, 1.5vw + 10px, 25px);
+        background-color: var(--clr-slightlight);
+        border-radius: 25px;
+    }
+    
+    .info1 {
+        margin: 0% 0% 0% 0%;
+    }
+    
+    .info {
+        transition: transform 1s;
+    }
+    
+    .info:hover {
+        transform: scale(1.1);
+        background-color: var(--clr-light);
+        transition: 1s;
+        box-shadow: -5px 5px var(--clr-slightlight);
+    }
+    
+    .brand-name {
+        margin: -1% 0% -5px 0%;
+    }
+    
+    .col {
+        transition: transform 1s;
+    }
+    
+    .col:hover {
+        transform: scale(1.1);
+        transition: 1s;
+    }
+    
+    img {
+        width: 100%;
+        height: 12.5em;
+    }
+    
+    .products {
+        text-align: center;
+        background-color: #2a2a35;
+        color: var(--clr-slightlight);
+        font-family: "Lucida Console", "Courier New", monospace;
+        margin-bottom: 5%;
+    }
+    
+    h2 {
+        margin-top: 3%;
+        font-weight: bolder;
+    }
+    
+    span {
+        color: var(--clr-light);
+        margin-left: -10%;
+    }
+    
+    .description {
+        font-size: 150%;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .btn {
+        background: #ff8c8c;
+        color: var(--clr-dark);
+    }
+    
+    .description-1 {
+        font-size: 146.8%;
+    }
+    
+    .btn {
+        margin-right: 40%;
+    }
+    
+    .prices {
+        margin-left: -35%;
+    }
+    
+    .facebook {
+        color: white;
+    }
+    
+    .description-2 {
+        font-size: 134%;
+    }
+    
+    .Mocha {
+        font-size: 250%;
+    }
+    
+    .tea {
+        font-size: 170%;
+    }
+    
+    .Earl {
+        font-size: 250%;
+    }
+    
+    .description-3 {
+        font-size: 154%;
+    }
+    
+    .description-4 {
+        font-size: 153%;
+    }
+    
+    .cookie {
+        height: 13.3em;
+    }
+    
+    .footers {
+        color: var(--clr-light);
+    }
+    
+    .Top {
+        color: var(--clr-light);
+        font-size: 130%;
+    }
+    
+    .logo {
+        color: var(--clr-light);
+    }
+    
+    .logos {
+        display: flex;
+        justify-content: space-between;
+        width: 75%;
+        margin-left: 5%;
+        font-size: 150%;
+    }
+    
+    .mb {
+        margin-left: 0%;
+        font-size: 115%;
+    }
+    
+    @media (max-width: 600px) {
+        .logos {
+            display: flex;
+            flex-direction: column;
+        }
+        .price {
+            flex-direction: column;
+            display: flex;
+        }
+        .Home {
+            background-size: 100% 5%;
+        }
+    }
